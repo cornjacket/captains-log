@@ -45,7 +45,7 @@ Every commit MUST follow this shape:
 
 ## Daily plan (daily-plan.md)
 
-`daily-plan.md` is a **forward-looking** plan file at the repo root. It captures the intent for one working day. ai-project-status aggregates every tracked repo's `daily-plan.md` into [`daily-plan-summary.md`](https://github.com/cornjacket/ai-project-status/blob/main/daily-plan-summary.md).
+`daily-plan.md` is a **forward-looking** plan file at the repo root. It captures the intent for one working day. project-status aggregates every tracked repo's `daily-plan.md` into [`daily-plan-summary.md`](https://github.com/cornjacket/ai-project-status/blob/main/daily-plan-summary.md).
 
 ### Rules
 
