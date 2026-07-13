@@ -1,4 +1,4 @@
-# Daily plan — 2026-07-12
+# Daily plan — 2026-07-13
 
 Study day: close out the vibe-coding paper, start the agents primer, and get hands on the Pi harness.
 
