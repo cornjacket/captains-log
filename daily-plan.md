@@ -9,6 +9,13 @@ Pi harness — plus set up a dotfiles repo so my config travels with me.
 - **Create a dotfiles git repo** — version my personal config so it's backed up and portable to a new
   machine: `~/.claude/CLAUDE.md` (global preferences), shell config (`.zshrc`/`.gitconfig`), and the
   like. Push to GitHub; on a new box it's one `git clone` + symlink to restore everything.
+- **Set up Claude Desktop to behave without per-prompt reminders** (Desktop ignores `CLAUDE.md` — that's
+  a Claude *Code* thing):
+  - **Global custom instructions** — set my standing preferences once (e.g. lead with a one-line summary
+    then detail) in profile/custom-instructions so they apply to every chat.
+  - **Research + adopt Projects** — use Projects to *partition and scope* my chats: per-project custom
+    instructions + reference knowledge, so a context's rules and docs are always loaded without me
+    repeating them. Set up a first Project or two around my actual workstreams.
 
 ### References
 - The New SDLC With Vibe Coding — https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding (mirror: https://addyosmani.com/blog/new-sdlc-vibe-coding/)
@@ -18,6 +25,6 @@ Pi harness — plus set up a dotfiles repo so my config travels with me.
 ```
 morning ───────── midday ───────── afternoon ─────── evening
  [SDLC paper]     [Intro to        [Pi harness]      [dotfiles repo]
-  finish           Agents]          install + drive   version + push
-  read → judge      read            hands-on          ~/.claude, shell
+  finish           Agents]          install + drive   [Desktop config:
+  read → judge      read            hands-on           custom instr + Projects]
 ```
