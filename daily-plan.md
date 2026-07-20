@@ -1,4 +1,4 @@
-# Daily plan — 2026-07-17
+# Daily plan — 2026-07-20
 
 Study day, carried forward: read the Agent Quality whitepaper and the agents primer, get hands on
 the Pi harness, and set up Claude Desktop to behave without per-prompt reminders — plus a second
