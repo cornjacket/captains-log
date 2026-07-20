@@ -1,8 +1,11 @@
 # Daily plan — 2026-07-17
 
-Study day, carried forward: read the agents primer, get hands on the Pi harness, and set up
-Claude Desktop to behave without per-prompt reminders — plus a second pass on the vibe-coding paper.
+Study day, carried forward: read the Agent Quality whitepaper and the agents primer, get hands on
+the Pi harness, and set up Claude Desktop to behave without per-prompt reminders — plus a second
+pass on the vibe-coding paper.
 
+- Read **Agent Quality** (Google/Kaggle) — the agent evaluation + observability whitepaper
+  (trajectory-as-truth, the logging/tracing/metrics pillars, LLM-as-a-judge), front to back
 - Read **Introduction to Agents** (Google/Kaggle) — the model-plus-harness primer, front to back
 - Reach for the **Pi** AI coding harness — install and drive it end-to-end on a small task
 - **Set up Claude Desktop to behave without per-prompt reminders** (Desktop ignores `CLAUDE.md` — that's
@@ -16,13 +19,14 @@ Claude Desktop to behave without per-prompt reminders — plus a second pass on 
   been through it once; consolidate the takeaways.
 
 ### References
+- Agent Quality — https://www.kaggle.com/whitepaper-agent-quality
 - The New SDLC With Vibe Coding — https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding (mirror: https://addyosmani.com/blog/new-sdlc-vibe-coding/)
 - Introduction to Agents — https://www.kaggle.com/whitepaper-introduction-to-agents
 - Pi coding-agent harness — https://github.com/earendil-works/pi (docs: https://pi.dev/)
 
 ```
 morning ───────── midday ───────── afternoon ─────── evening
- [Intro to        [Pi harness]     [Desktop config:  [SDLC paper]
-  Agents]          install +        custom instr +    second pass
-  read             drive            Projects]         (re-read)
+ [Agent Quality   [Pi harness]     [Desktop config:  [SDLC paper]
+  + Intro to       install +        custom instr +    second pass
+  Agents] read     drive            Projects]         (re-read)
 ```
