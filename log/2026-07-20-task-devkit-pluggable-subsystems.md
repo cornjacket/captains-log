@@ -43,3 +43,33 @@ next.
 - Does `task-devkit` **reuse** `second-brain-devkit`'s emit/update machinery (`template/` +
   `emit-manifest.toml` + additive `update_brain.py`), or factor it into a shared library?
 - Concrete second-brain use cases for ai-builder's agentic workflows.
+
+## Assessment — sequence it, don't front-load the framework
+The pattern is sound; the risk is *sequencing*, not the idea.
+
+- **Premature generalization is the danger.** The task system exists in exactly one place today.
+  Building a generator (template/ + emit-manifest + golden + CI + update semantics) before it has
+  lived in a *second* repo risks the wrong abstraction. second-brain-devkit earned its machinery
+  because a brain is genuinely complex; a task system may not.
+- **Do you even need a devkit, or something lighter?** Spectrum: manual copy → submodule/subtree →
+  cookiecutter one-shot → full additive-update devkit. The full devkit pays off **only if the task
+  *tooling* keeps evolving and you want that pushed into many targets without re-copying.** Deciding
+  question: after drop-in, how often does the tooling change? Rarely → submodule/cookiecutter.
+- **Shared-machinery is the real architecture call** (reuse the engine vs a shared library). Don't
+  decide it on spec — wait until task-devkit exists and the common surface is visible. Don't abstract
+  the abstraction early.
+- **"Scales well" is true for the *right* subsystems**, not all — each instance carries a fixed cost
+  (its own golden, CI, update contract). Worth it for complex + shared + evolving subsystems only.
+- **Two generators → one target = a collision/ownership problem to name now.** Additive updates are
+  safe from *deletion*, not from *collision*. Define who owns which folders / `.gitignore` lines /
+  README managed blocks before a second generator emits into `second-brain/`.
+- **The ai-task schema is the product; generation is plumbing.** A markdown checklist is trivial; an
+  *agent-consumable* task spec (state model, completion reporting, acceptance criteria, "don't let
+  the agent mark its own homework") is the real design problem. Nail that before the generator.
+- **ai-builder → second-brain is a solution seeking a problem** — park it until a concrete use case
+  appears. Possibility isn't a reason.
+
+**Recommended sequence:** (1) drop a task system into `second-brain/` **by hand** (folder outside
+`vault/`) and use it a few weeks — especially to feel the ai-task shape; (2) extract `task-devkit`
+**only on the second real need** (ai-builder), and pick devkit-vs-lighter by how much the tooling
+churns; (3) generalize the shared engine / ai-builder-devkit **on the third** consumer, not before.
