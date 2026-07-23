@@ -1,36 +1,33 @@
-# Daily plan — 2026-07-21
+# Daily plan — 2026-07-23
 
 **What this repo is (for a newcomer):** `captains-log` is a personal engineering log — learning
 notes, design decisions, and roadmap thinking captured as dated entries, tracked by project-status so
 the reasoning behind the portfolio is recorded alongside the code.
 
-**Last implemented:** logged the **task-devkit / pluggable-markdown-subsystems** roadmap (2026-07-20)
-— generalizing the second-brain-devkit generator model into subsystems dropped into target repos.
+**Last implemented:** logged Google/Kaggle's **5-Day AI Agents Intensive Course** as a tracked
+umbrella study task (2026-07-23) — [task doc](log/2026-07-23-task-5-day-ai-agents-intensive.md).
 
 **Focus / plan:**
-- Read **Agent Quality** (Google/Kaggle) — the agent evaluation + observability whitepaper
-  (trajectory-as-truth, the logging/tracing/metrics pillars, LLM-as-a-judge), front to back.
-- Read **Introduction to Agents** (Google/Kaggle) — the model-plus-harness primer, front to back.
-- Reach for the **Pi** AI coding harness — install and drive it end-to-end on a small task.
-- **Set up Claude Desktop to behave without per-prompt reminders** — global custom instructions
-  (standing preferences once) + adopt **Projects** to partition/scope chats.
-- Sketch **task-devkit**: what the generated task subsystem looks like inside a target repo (a folder
-  outside `vault/`; `tasks/`/`todo/` naming; whether to reuse the additive `update_brain` machinery).
-- **Add the task-system to captains-log's daily-plan** — dogfood the task-devkit subsystem by wiring
-  it into this repo's own plan.
-- **Re-read The New SDLC With Vibe Coding** (Google/Kaggle) — a second pass, front to back, now that
-  I've been through it once; consolidate the takeaways. (Last — after the other papers.)
+- **Day 1 of the Kaggle intensive — *Introduction to Agents*:** read the whitepaper front to back and
+  work the day's material. Task doc: [`log/2026-07-23-task-5-day-ai-agents-intensive.md`](log/2026-07-23-task-5-day-ai-agents-intensive.md).
+- Carry forward: **Agent Quality** whitepaper — evaluation + observability (trajectory-as-truth, the
+  logging/tracing/metrics pillars, LLM-as-a-judge).
+- Carry forward: reach for the **Pi** AI coding harness — install and drive it end-to-end on a small task.
+- Carry forward: **Claude Desktop without per-prompt reminders** — global custom instructions plus
+  Projects to partition/scope chats.
+- Carry forward: sketch **task-devkit** and dogfood it by wiring a task system into this repo.
+- Carry forward (last): **re-read The New SDLC With Vibe Coding**, second pass, consolidate takeaways.
 
 ### References
+- 5-Day AI Agents Intensive — https://www.kaggle.com/learn-guide/5-day-agents (video: https://www.youtube.com/watch?v=BPQDZLPtgDc)
+- Introduction to Agents — https://www.kaggle.com/whitepaper-introduction-to-agents
 - Agent Quality — https://www.kaggle.com/whitepaper-agent-quality
 - The New SDLC With Vibe Coding — https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding (mirror: https://addyosmani.com/blog/new-sdlc-vibe-coding/)
-- Introduction to Agents — https://www.kaggle.com/whitepaper-introduction-to-agents
 - Pi coding-agent harness — https://github.com/earendil-works/pi (docs: https://pi.dev/)
 
 ```
-morning ───────── midday ───────── afternoon ─────── evening
- [Agent Quality   [Pi harness]     [task-devkit      [SDLC paper]
-  + Intro to       install +        sketch +          second pass
-  Agents] read     drive            task-system;      (re-read,
-                                    Desktop config]    last)
+morning ──────────── midday ──────────── afternoon ────────── evening
+ [Kaggle Day 1:      [Day 1 cont. —      [Agent Quality      [Pi harness /
+  Introduction to     finish the day's    whitepaper]         task-devkit
+  Agents] read        material]                               sketch]
 ```
