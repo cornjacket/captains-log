@@ -64,3 +64,19 @@ Every commit MUST follow this shape:
 5. **Start-of-session safety net.** A `SessionStart` hook (installed at `.claude/hooks/check-daily-plan.py`) checks `daily-plan.md` freshness against today's most-recent-weekday. If stale or missing, it injects a prompt instructing you to ask the user for today's plan and overwrite the file before doing other work. Treat this as a hard precondition — don't proceed with other tasks until the plan is fresh.
 
 <!-- ai-project-status:end -->
+
+<!-- task-system:begin -->
+## Task tracking
+
+This repo tracks work in a Markdown task system under `project/tasks/`.
+
+- **Before starting any non-trivial work, check for an existing task** — and if
+  there isn't one, create it. Work that isn't tracked is work nobody can find.
+- **Only the scripts in `project/tasks/scripts/` may modify task state.** Never
+  hand-edit a task `README.md` to add/remove subtasks, and never move task
+  directories between status folders manually.
+- **Never close a task without explicit confirmation** from its owner.
+- **Full procedure:** the `task-system` skill, or
+  [`project/tasks/docs/USING.md`](project/tasks/docs/USING.md) — consult it
+  before creating, ordering, or closing tasks. Do not restate that procedure here.
+<!-- task-system:end -->
