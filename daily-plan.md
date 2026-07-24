@@ -1,4 +1,4 @@
-# Daily plan — 2026-07-23
+# Daily plan — 2026-07-24
 
 **What this repo is (for a newcomer):** `captains-log` is a personal engineering log — learning
 notes, design decisions, and roadmap thinking captured as dated entries, tracked by project-status so
