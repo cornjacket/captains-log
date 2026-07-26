@@ -5,7 +5,7 @@
 | Task-type   | USER-TASK              |
 | Status | in-progress |
 | Epic        | main               |
-| Tags        | —               |
+| Tags        | study, course   |
 | Priority    | —           |
 | Created     | 2026-07-24            |
 | Completed   | —                      |

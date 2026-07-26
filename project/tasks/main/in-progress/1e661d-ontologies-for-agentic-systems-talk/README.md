@@ -5,7 +5,7 @@
 | Task-type   | USER-TASK              |
 | Status      | in-progress             |
 | Epic        | main               |
-| Tags        | —               |
+| Tags        | study, video    |
 | Priority    | —           |
 | Created     | 2026-07-26            |
 | Completed   | —                      |

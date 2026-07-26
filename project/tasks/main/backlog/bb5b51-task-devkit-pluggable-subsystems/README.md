@@ -86,3 +86,18 @@ before the generator.
   shape* before committing to generator machinery; revisit before starting it.
 - Migrated 2026-07-24 from `log/2026-07-20-task-devkit-pluggable-subsystems.md`. `log/` is for
   personal log and status writing; live task state lives here.
+
+### Field notes from using the system (feed these into the devkit)
+
+- **No way to retag an existing task.** `--tags` is accepted only by
+  `new-user-task.sh` / `new-user-subtask.sh` at creation; there is no `set-tags.sh`, and
+  `rename-subtask.sh` only changes the `NNNN`. Retagging today means either hand-editing the
+  `Tags` row — outside the "scripts only" rule, though safe, since `Tags` is a leaf field with
+  nothing mirrored on the filesystem — or delete-and-recreate with `--id`, which destroys the
+  task's subtasks. First real gap found by using the system rather than designing it, which is
+  exactly what subtask `0001` is for. A `set-field.sh` covering `Tags` and `Priority` would
+  close it.
+- **`Category` is the wrong name for what it does** — it is the worktree class (which files a
+  task touches, so parallel branches don't collide), not a topical category, and the name
+  invites exactly the misuse of reaching for it to classify a task as "video" or "education".
+  Filed upstream as task 19 in `create-project-system`.
