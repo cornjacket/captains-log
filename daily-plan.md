@@ -5,11 +5,11 @@ notes, design decisions, and roadmap thinking captured as dated entries, tracked
 the reasoning behind the portfolio is recorded alongside the code.
 
 **Last implemented:** logged Google/Kaggle's **5-Day AI Agents Intensive Course** as a tracked
-umbrella study task (2026-07-23) — [task doc](log/2026-07-23-task-5-day-ai-agents-intensive.md).
+umbrella study task (2026-07-23) — [task](project/tasks/main/in-progress/5c0d5b-kaggle-5-day-ai-agents-intensive/).
 
 **Focus / plan:**
 - **Day 1 of the Kaggle intensive — *Introduction to Agents*:** read the whitepaper front to back and
-  work the day's material. Task doc: [`log/2026-07-23-task-5-day-ai-agents-intensive.md`](log/2026-07-23-task-5-day-ai-agents-intensive.md).
+  work the day's material. Task: [`project/tasks/main/in-progress/5c0d5b-kaggle-5-day-ai-agents-intensive/`](project/tasks/main/in-progress/5c0d5b-kaggle-5-day-ai-agents-intensive/).
 - Carry forward: **Agent Quality** whitepaper — evaluation + observability (trajectory-as-truth, the
   logging/tracing/metrics pillars, LLM-as-a-judge).
 - Carry forward: reach for the **Pi** AI coding harness — install and drive it end-to-end on a small task.
