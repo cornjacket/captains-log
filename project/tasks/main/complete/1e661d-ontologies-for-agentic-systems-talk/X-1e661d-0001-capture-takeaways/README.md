@@ -32,7 +32,8 @@ yields nothing is a valid outcome and worth recording as one.
 That is what happened: **the talk didn't give much concrete to work with.** Nothing actionable to
 carry into design or practice, so no `log/` entry and no second-brain note.
 
-The one thing produced was a **NotebookLM audio clip** made from the talk.
+The one thing produced was a **NotebookLM audio clip** made from the talk —
+https://notebooklm.google.com/notebook/b2e68cd8-5a19-471c-a2ba-262dc9997940
 
 ## Subtasks
 

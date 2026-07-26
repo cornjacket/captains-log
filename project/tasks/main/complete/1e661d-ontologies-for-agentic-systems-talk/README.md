@@ -49,8 +49,9 @@ actionable came out of it. No design change, no technique to try. Recorded as a 
 rather than deleted, so the next time this talk surfaces it's already answered.
 
 **Artifact produced:** a **NotebookLM audio clip** generated from the talk — the one piece worth
-keeping from the exercise. It lives outside this repo; drop a link here if it's worth finding
-again.
+keeping from the exercise. It lives outside this repo:
+
+- https://notebooklm.google.com/notebook/b2e68cd8-5a19-471c-a2ba-262dc9997940
 
 No second-brain note was written: nothing transferable enough to justify one, and a thin note is
 worse than none.
