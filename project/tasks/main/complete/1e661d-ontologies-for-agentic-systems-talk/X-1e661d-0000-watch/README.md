@@ -3,13 +3,13 @@
 | Field       | Value                  |
 |-------------|------------------------|
 | Task-type   | USER-SUBTASK           |
-| Status      | —                      |
+| Status | complete |
 | Epic        | main               |
 | Tags        | —               |
 | Parent      | 1e661d-ontologies-for-agentic-systems-talk             |
 | Priority    | —           |
 | Created     | 2026-07-26            |
-| Completed   | —                      |
+| Completed | 2026-07-26 |
 | Next-subtask-id | 0000               |
 
 ## Goal

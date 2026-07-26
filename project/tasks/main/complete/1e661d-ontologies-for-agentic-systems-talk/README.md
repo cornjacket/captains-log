@@ -3,12 +3,12 @@
 | Field       | Value                  |
 |-------------|------------------------|
 | Task-type   | USER-TASK              |
-| Status      | in-progress             |
+| Status | complete |
 | Epic        | main               |
 | Tags        | study, video    |
 | Priority    | —           |
 | Created     | 2026-07-26            |
-| Completed   | —                      |
+| Completed | 2026-07-26 |
 | Next-subtask-id | 0002 |
 
 ## Goal
@@ -37,10 +37,20 @@ Where the output goes, once watched:
 
 <!-- When a subtask is finished, run complete-task.sh --parent to mark it [x] before moving on. -->
 <!-- subtask-list-start -->
-- [ ] [1e661d-0000-watch](1e661d-0000-watch/)
-- [ ] [1e661d-0001-capture-takeaways](1e661d-0001-capture-takeaways/)
+- [x] [X-1e661d-0000-watch](X-1e661d-0000-watch/)
+- [x] [X-1e661d-0001-capture-takeaways](X-1e661d-0001-capture-takeaways/)
 <!-- subtask-list-end -->
 
 ## Notes
 
-_None._
+**Outcome (2026-07-26): thin.** Watched end to end, but it didn't give much concrete to work
+with — the case for ontologies in agentic systems was made at a level general enough that nothing
+actionable came out of it. No design change, no technique to try. Recorded as a completed task
+rather than deleted, so the next time this talk surfaces it's already answered.
+
+**Artifact produced:** a **NotebookLM audio clip** generated from the talk — the one piece worth
+keeping from the exercise. It lives outside this repo; drop a link here if it's worth finding
+again.
+
+No second-brain note was written: nothing transferable enough to justify one, and a thin note is
+worse than none.
