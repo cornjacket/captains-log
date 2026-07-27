@@ -24,6 +24,7 @@ Complete **Day 1 — Introduction to Agents** of the course.
 Day 1 material:
 
 - Podcast — https://www.youtube.com/watch?v=7iic3Zj427M
+- Video — https://www.youtube.com/watch?v=cbzmr7vt4XA
 - Whitepaper: *Introduction to Agents* — https://www.kaggle.com/whitepaper-introduction-to-agents
 
 ## Subtasks
