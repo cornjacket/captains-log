@@ -26,10 +26,18 @@ References:
 - Course guide — https://www.kaggle.com/learn-guide/5-day-agents
 - Companion video — https://www.youtube.com/watch?v=BPQDZLPtgDc
 
-Three whitepapers already on the reading list in `daily-plan.md` — **Agent Quality**,
-**Introduction to Agents**, and **The New SDLC With Vibe Coding** — are Kaggle agent-track
-material, so some of the course overlaps reading already planned. Let those readings count
-toward this task rather than duplicating them.
+Three whitepapers are Kaggle agent-track material, so some of the course overlaps reading already
+planned. Let those readings count toward this task rather than duplicating them:
+
+- Introduction to Agents — https://www.kaggle.com/whitepaper-introduction-to-agents
+- Agent Quality — https://www.kaggle.com/whitepaper-agent-quality — evaluation + observability
+  (trajectory-as-truth, the logging/tracing/metrics pillars, LLM-as-a-judge).
+- The New SDLC With Vibe Coding — https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding
+  (mirror: https://addyosmani.com/blog/new-sdlc-vibe-coding/) — a second pass is wanted, to
+  consolidate takeaways.
+
+These three were standing carry-forwards on `daily-plan.md` until 2026-07-27; they moved here so
+the plan stops re-listing what this task already owns.
 
 ## Subtasks
 

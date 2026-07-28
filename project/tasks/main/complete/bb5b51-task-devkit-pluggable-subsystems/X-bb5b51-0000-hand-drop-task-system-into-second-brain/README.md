@@ -3,13 +3,13 @@
 | Field       | Value                  |
 |-------------|------------------------|
 | Task-type   | USER-SUBTASK           |
-| Status      | —                      |
+| Status | complete |
 | Epic        | main               |
 | Tags        | —               |
 | Parent      | bb5b51-task-devkit-pluggable-subsystems             |
 | Priority    | —           |
 | Created     | 2026-07-24            |
-| Completed   | —                      |
+| Completed | 2026-07-27 |
 | Next-subtask-id | 0000               |
 
 ## Goal

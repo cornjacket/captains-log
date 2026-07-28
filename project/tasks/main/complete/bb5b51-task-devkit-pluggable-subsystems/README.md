@@ -3,12 +3,12 @@
 | Field       | Value                  |
 |-------------|------------------------|
 | Task-type   | USER-TASK              |
-| Status | backlog |
+| Status | complete |
 | Epic        | main               |
 | Tags        | —               |
 | Priority    | —           |
 | Created     | 2026-07-24            |
-| Completed   | —                      |
+| Completed | 2026-07-27 |
 | Next-subtask-id | 0006 |
 
 ## Goal
@@ -69,12 +69,12 @@ before the generator.
 
 <!-- When a subtask is finished, run complete-task.sh --parent to mark it [x] before moving on. -->
 <!-- subtask-list-start -->
-- [ ] [bb5b51-0000-hand-drop-task-system-into-second-brain](bb5b51-0000-hand-drop-task-system-into-second-brain/)
-- [ ] [bb5b51-0001-use-it-and-evaluate-ai-task-shape](bb5b51-0001-use-it-and-evaluate-ai-task-shape/)
-- [ ] [bb5b51-0002-extract-task-devkit-on-second-need](bb5b51-0002-extract-task-devkit-on-second-need/)
-- [ ] [bb5b51-0003-backfill-ai-builder-as-consumer](bb5b51-0003-backfill-ai-builder-as-consumer/)
-- [ ] [bb5b51-0004-generalize-shared-engine-on-third-consumer](bb5b51-0004-generalize-shared-engine-on-third-consumer/)
-- [ ] [bb5b51-0005-update-docs](bb5b51-0005-update-docs/)
+- [x] [X-bb5b51-0000-hand-drop-task-system-into-second-brain](X-bb5b51-0000-hand-drop-task-system-into-second-brain/)
+- [x] [X-bb5b51-0001-use-it-and-evaluate-ai-task-shape](X-bb5b51-0001-use-it-and-evaluate-ai-task-shape/)
+- [x] [X-bb5b51-0002-extract-task-devkit-on-second-need](X-bb5b51-0002-extract-task-devkit-on-second-need/)
+- [x] [X-bb5b51-0003-backfill-ai-builder-as-consumer](X-bb5b51-0003-backfill-ai-builder-as-consumer/)
+- [x] [X-bb5b51-0004-generalize-shared-engine-on-third-consumer](X-bb5b51-0004-generalize-shared-engine-on-third-consumer/)
+- [x] [X-bb5b51-0005-update-docs](X-bb5b51-0005-update-docs/)
 <!-- subtask-list-end -->
 
 ## Notes
@@ -101,3 +101,35 @@ before the generator.
   task touches, so parallel branches don't collide), not a topical category, and the name
   invites exactly the misuse of reaching for it to classify a task as "video" or "education".
   Filed upstream as task 19 in `create-project-system`.
+
+### Closed 2026-07-27 — superseded, work re-homed to the owning repos
+
+Closed not because the roadmap was abandoned but because it **executed and dispersed**. This is a
+log repo; live task state for build work belongs where the building happens. Where each subtask
+went:
+
+- `0000` drop into second-brain — done via the generator, not by hand:
+  `create-project-system/tasks/07-generate-into-second-brain.md` (commit `5b6d9d4`,
+  `/Users/david/second-brain/project/tasks/`).
+- `0001` ai-task shape — owned by `create-ai-builder`, where `PIPELINE-SUBTASK` actually lives.
+  The "don't let the agent mark its own homework" problem surfaced there for real
+  (`f5f7b8-pipeline-acceptance-spec-writer`: the ARCHITECT drifted from the build spec and the
+  TESTER passed it, because the TESTER runs the IMPLEMENTOR's tests — written against the drifted
+  criteria). Found by running the system, not by designing it, which is what this subtask asked
+  for. See also `f7a6af-redefine-task-system-human-pipeline-boundary`,
+  `2da360-document-flexible-task-system-usage`.
+- `0002` extract task-devkit — it is `create-project-system`. The devkit shipped.
+- `0003` backfill ai-builder — `create-project-system/tasks/09` (open: strip + regen + verify),
+  plus re-homed 2026-07-26 into ai-builder's own tracker as
+  `15d940-target-setup-uses-generator-for-tasks`, `29297c-relocate-pipeline-scripts`,
+  `59ea60-repo-name-rename-audit`.
+- `0004` shared engine — **answered, not built.** `create-context-hygiene` decided the substrate is
+  *copied, not shared-lib* (`docs/hygiene-design.md:155`, `PLAN.md:14`). The open question this
+  task posed got a deliberate "don't".
+- Field notes above both re-homed: `Category` → `create-project-system/tasks/19`; the retag gap →
+  ai-builder `697e5a-add-rename-task-script` / `99c172-add-task-manipulation-scripts`.
+
+**One thread left unowned.** `0004` said generalize on the *third* consumer; cch decided
+copy-not-shared-lib while looking at *two*. There are arguably three generators now (cps, cch, and
+create-ai-builder is itself one). To be filed in `create-project-system` — the repo that owns the
+substrate — as a revisit-the-decision task.
