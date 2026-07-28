@@ -129,7 +129,10 @@ went:
 - Field notes above both re-homed: `Category` → `create-project-system/tasks/19`; the retag gap →
   ai-builder `697e5a-add-rename-task-script` / `99c172-add-task-manipulation-scripts`.
 
-**One thread left unowned.** `0004` said generalize on the *third* consumer; cch decided
-copy-not-shared-lib while looking at *two*. There are arguably three generators now (cps, cch, and
-create-ai-builder is itself one). To be filed in `create-project-system` — the repo that owns the
-substrate — as a revisit-the-decision task.
+**The one unowned thread, now filed.** `0004` said generalize on the *third* consumer; cch decided
+copy-not-shared-lib while looking at *two*, deferring until "a third module appears" — but nothing
+defined what counts as a third or watched for it. Filed 2026-07-27 in `create-project-system`, the
+repo that owns the substrate, as **task 22 — revisit the shared generator substrate**. Its crux:
+the third *consumer of that substrate* is arriving via cps task 09 + ai-builder's `15d940`, while a
+third *generator overall* (`second-brain-devkit`) already exists on a deliberately different
+substrate — so the trigger is ambiguous, and naming which reading fires it is the actual decision.

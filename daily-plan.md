@@ -16,12 +16,12 @@ Carry-forwards cleared off this plan today: the **Pi harness** and **Claude Desk
 instructions** items became backlog tasks
 ([`7d5719`](project/tasks/main/backlog/7d5719-pi-coding-harness-end-to-end/),
 [`cf94ee`](project/tasks/main/backlog/cf94ee-claude-desktop-without-per-prompt-reminders/)) rather
-than rolling forward invisibly; **Agent Quality**, **The New SDLC With Vibe Coding**, and
-**task-devkit** were dropped from the plan.
+than rolling forward invisibly; **Agent Quality** and **The New SDLC With Vibe Coding** moved onto
+the Kaggle task that owns them; **task-devkit** closed as superseded, with its one unowned strand
+filed in `create-project-system` as task 22.
 
-### References
-- 5-Day AI Agents Intensive — https://www.kaggle.com/learn-guide/5-day-agents (video: https://www.youtube.com/watch?v=BPQDZLPtgDc)
-- Introduction to Agents — https://www.kaggle.com/whitepaper-introduction-to-agents
+Reference links now live on the task that addresses each item, not here — a link on a daily plan is
+gone tomorrow.
 
 ```
 morning ──────────── midday ──────────── afternoon ────────── evening
