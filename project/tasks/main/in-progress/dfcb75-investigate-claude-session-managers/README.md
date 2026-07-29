@@ -3,13 +3,13 @@
 | Field       | Value                  |
 |-------------|------------------------|
 | Task-type   | USER-TASK              |
-| Status      | backlog             |
+| Status | in-progress |
 | Epic        | main               |
 | Tags        | tooling, evaluation               |
 | Priority    | HIGH           |
 | Created     | 2026-07-29            |
 | Completed   | —                      |
-| Next-subtask-id | 0000               |
+| Next-subtask-id | 0001 |
 
 ## Goal
 
@@ -39,10 +39,10 @@ what to resume after a break. That coordination currently lives in the operator'
 
 This connects to two open strands rather than standing alone:
 
-- [`7d5719-pi-coding-harness-end-to-end`](../7d5719-pi-coding-harness-end-to-end/) — the same
+- [`7d5719-pi-coding-harness-end-to-end`](../../backlog/7d5719-pi-coding-harness-end-to-end/) — the same
   question from the harness side: which conventions here are load-bearing and which are just
   Claude Code's shape. A session manager tests the same seam one level up.
-- [`cf94ee-claude-desktop-without-per-prompt-reminders`](../cf94ee-claude-desktop-without-per-prompt-reminders/) —
+- [`cf94ee-claude-desktop-without-per-prompt-reminders`](../../backlog/cf94ee-claude-desktop-without-per-prompt-reminders/) —
   both are about getting durable context to persist across sessions without re-establishing it by
   hand each time.
 
@@ -50,6 +50,7 @@ This connects to two open strands rather than standing alone:
 
 <!-- When a subtask is finished, run complete-task.sh --parent to mark it [x] before moving on. -->
 <!-- subtask-list-start -->
+- [ ] [dfcb75-0000-when-to-run-claude-dangerously](dfcb75-0000-when-to-run-claude-dangerously/)
 <!-- subtask-list-end -->
 
 ## Notes

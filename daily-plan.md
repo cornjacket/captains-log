@@ -10,7 +10,7 @@ closing the task-devkit handoff and moving reference links onto the tasks that o
 **Focus / plan:**
 - **Top priority — survey Claude session managers:** what tools exist for running, parking, and
   resuming several Claude Code sessions in parallel, and whether any of them fits the conventions
-  already in place here. Task: [`project/tasks/main/backlog/dfcb75-investigate-claude-session-managers/`](project/tasks/main/backlog/dfcb75-investigate-claude-session-managers/).
+  already in place here. Task: [`project/tasks/main/in-progress/dfcb75-investigate-claude-session-managers/`](project/tasks/main/in-progress/dfcb75-investigate-claude-session-managers/).
 - **Kaggle intensive — *Introduction to Agents*:** continue the day's material and the whitepaper.
   Task: [`project/tasks/main/in-progress/5c0d5b-kaggle-5-day-ai-agents-intensive/`](project/tasks/main/in-progress/5c0d5b-kaggle-5-day-ai-agents-intensive/).
 
