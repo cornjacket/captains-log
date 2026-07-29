@@ -1,30 +1,26 @@
-# Daily plan — 2026-07-28
+# Daily plan — 2026-07-29
 
 **What this repo is (for a newcomer):** `captains-log` is a personal engineering log — learning
 notes, design decisions, and roadmap thinking captured as dated entries, tracked by project-status so
 the reasoning behind the portfolio is recorded alongside the code.
 
-**Last implemented:** moved the daily plan's reference links onto the tasks that own them and closed
-out the task-devkit handoff by pointing at the live `create-project-system` task (2026-07-27).
+**Last implemented:** rolled the plan forward to 2026-07-28 for Day 1 of the Kaggle intensive, after
+closing the task-devkit handoff and moving reference links onto the tasks that own them (2026-07-28).
 
 **Focus / plan:**
-- **Day 1 of the Kaggle intensive — *Introduction to Agents*:** read the whitepaper front to back and
-  work the day's material. Task: [`project/tasks/main/in-progress/5c0d5b-kaggle-5-day-ai-agents-intensive/`](project/tasks/main/in-progress/5c0d5b-kaggle-5-day-ai-agents-intensive/).
-
-Carry-forwards were cleared off this plan on 2026-07-27: the **Pi harness** and **Claude Desktop
-custom instructions** items became backlog tasks
-([`7d5719`](project/tasks/main/backlog/7d5719-pi-coding-harness-end-to-end/),
-[`cf94ee`](project/tasks/main/backlog/cf94ee-claude-desktop-without-per-prompt-reminders/)) rather
-than rolling forward invisibly; **Agent Quality** and **The New SDLC With Vibe Coding** moved onto
-the Kaggle task that owns them; **task-devkit** closed as superseded, with its one unowned strand
-filed in `create-project-system` as task 22.
+- **Top priority — survey Claude session managers:** what tools exist for running, parking, and
+  resuming several Claude Code sessions in parallel, and whether any of them fits the conventions
+  already in place here. Task: [`project/tasks/main/backlog/dfcb75-investigate-claude-session-managers/`](project/tasks/main/backlog/dfcb75-investigate-claude-session-managers/).
+- **Kaggle intensive — *Introduction to Agents*:** continue the day's material and the whitepaper.
+  Task: [`project/tasks/main/in-progress/5c0d5b-kaggle-5-day-ai-agents-intensive/`](project/tasks/main/in-progress/5c0d5b-kaggle-5-day-ai-agents-intensive/).
 
 Reference links live on the task that addresses each item, not here — a link on a daily plan is
 gone tomorrow.
 
 ```
 morning ──────────── midday ──────────── afternoon ────────── evening
- [Kaggle Day 1:      [Day 1 cont. —      [Day 1 material     [wrap up /
-  Introduction to     finish the day's    cont.]              capture notes]
-  Agents] read        material]
+ [session-manager    [survey cont. —     [Kaggle:            [wrap up /
+  survey: what        adopt or not]       Introduction to     capture notes]
+  exists, what it                         Agents]
+  manages]
 ```
